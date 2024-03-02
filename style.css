@@ -1,0 +1,44 @@
+.cityNav {
+    color: white;
+    padding-right: 5%;
+}
+
+a:hover {
+    background-color: red;
+}
+
+.headerContent {
+    text-align: center;
+    padding-top: 10%;
+    position: absolute;
+}
+
+.mainWrapper {
+    float: left; /* Float the mainWrapper to the left */
+    width: calc(100% - 600px); /* Adjust the width to accommodate the image */
+    margin-right: 20px; /* Add some margin to separate it from the image */
+    position: relative; /* Apply relative positioning */
+}
+
+.mainContent {
+    padding-top: 5%;
+}
+
+.altContent {
+    float: left; /* Float the altContent to the left */
+    width: 30%; /* Set the width of altContent to 30% */
+    text-align: center;
+    padding-top: 5%;
+}
+
+.imgWrapper {
+    max-width: 600px;
+    max-height: 400px;
+    margin: 0 auto; /* Center the image horizontally */
+    text-align: center; /* Center the image */
+    
+}
+
+#Alcoholism{
+    font-family: fantasy;
+}
