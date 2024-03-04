@@ -22,6 +22,7 @@ a:hover {
 
 .mainContent {
     padding-top: 5%;
+    
 }
 
 .altContent {
@@ -42,3 +43,17 @@ a:hover {
 #Alcoholism{
     font-family: fantasy;
 }
+
+.imgWrapper {
+    max-width: 50%; /* Adjust the maximum width to 50% of the viewport width */
+    max-height: 150vh; /* Set the maximum height to 100% of the viewport height */
+    margin: 0 auto; /* Center the image horizontally */
+    text-align: center; /* Center the image */
+    overflow: hidden; /* Hide any overflow to maintain aspect ratio */
+}
+
+.imgWrapper img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
