@@ -1,5 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--
+SOURCES:
+    
+
+Title: 2009-0521-ND-StateCapitol (cropped) Author: Tim Evanson Source: Wikimedia Commons URL: https://commons.wikimedia.org/wiki/File:2009-0521-ND-StateCapitol_(cropped).jpg
+
+Title: Fargo, North Dakota (2018) Author: Joe Ferrer Source: Wikimedia Commons URL: https://commons.wikimedia.org/wiki/File:Fargo,North_Dakota(2018).jpg
+
+Xerxes2004. (n.d.). Fort Union Trading Post NHS.JPG. 
+
+United States Department of Agriculture (December 2009). 2007 Census of Agriculture Archived October 16, 2010, at the Wayback Machine. 1. Part 51. pp. 276–293, pp. 345–355, p. 434, pp. 474–489.
+
+United States Census Bureau. Archived from the original on July 22, 2020
+
+ "USDA Plant Hardiness Zone Map". United States Department of Agriculture. Archived from the original on February 27, 2014. 
+
+ "Fargo". IMDb.com
+
+More white supremacists move to Leith". Bismarck Tribune. October 23, 2013.
+
+ "WELCOME TO LEITH (15)". British Board of Film Classification. February 4, 2016.
+
+-->
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,23 +42,116 @@
         </div>
     </nav>
 
-<div class="headerContent">
-
-<h1 class="mainHeader">Leith</h1>
-
-</div>
 
 
 <div class="imgWrapper">
-    <img src="img/1920px-Leith,_North_Dakota_6-12-2009.jpg" alt="Leith Landing image">
+    <img src="img/1920px-Leith,_North_Dakota_6-12-2009.jpg" alt="Leith Landing image"> <cite>Title: Leith, North Dakota 6-12-2009
+        Author: Andrew Filer
+        Source: Wikimedia Commons
+        URL: https://commons.wikimedia.org/wiki/File:Leith,_North_Dakota_6-12-2009.jpg</cite>
 </div>
-
-<div class="mainWrapper">
-    <div class="mainContent">a section to display the main content of the page</div>
-
-<div class="altContent"> an aside to display information related to the content</div>
-</div>
-
-
+<h1 class="mainHeader">Leith</h1>
+<div class="contentWrapper">
+    <div class="mainWrapper">
+        <div class="mainContent">
+            <h3>Leith is a small town, it has a sad history.</h3>
+            <ol class="orderedList">
+                <li>Leith has a majority white supremicist population, it's population is very small.</li> <!--<cite>More white supremacists move to Leith". Bismarck Tribune. October 23, 2013.</cite>-->
+                <li>This racism was documented in the documentary "Welcome to leith"</li> <!--<cite> "WELCOME TO LEITH (15)". British Board of Film Classification. February 4, 2016.</cite> -->
+                <li>It is very poor</li>
+            </ol>
+            <h3>I wouldn't recommend going to Leith, but if you wanted to you would experience.</h3>
+            <ul>
+                <li id="Alcoholism">a Struggling community</li>
+                <li>Racists and turmoil</li>
+                <li>Winter activities such as skiing or sledding</li>
+            </ul>
+    
+    
+        </div>
+    
+    <div class="altContent">
+        <table>
+            <tr>
+                <th>City</th>
+                <th>Population</th>
+                <th>US Rank</th>
+                <th>Year city was made</th>
+                <th>region</th>
+                <th>classification</th>
+                <th>average income</th>
+            </tr>
+            <tr>
+                <td>Fargo</td>
+                <td>131,444</td>
+                <td>216th</td>
+                <td>1871</td>
+                <td>Eastern border of State</td>
+                <td>Urban</td>
+                <td>44,444</td>
+    
+            </tr>
+            <tr>
+                <td>Bismarck</td>
+                <td>74,445</td>
+                <td>500th</td>
+                <td>1872</td>
+                <td>central ND</td>
+                <td>Urban</td>
+                <td>39,000</td>
+            </tr>
+            <tr>
+                <td>Leith</td>
+                <td>28</td>
+                <td>Too low to count</td>
+                <td>1910</td>
+                <td>Southern part of state</td>
+                <td>Rural</td>
+                <td>12,000</td>
+    
+            </tr>
+        </table>
+        <cite>United States Census Bureau. Archived from the original on July 22, 2020</cite>
+        <br>
+    
+    </div>
+    
+    </div>
+    
+    </div>
+    
+    <div class="emailWrapper">
+    <h3>Enter your contact info here</h3>
+    <form id="contact">
+        <label for="firstName"></label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your First Name">
+        <label for="lastName"></label>
+        <input type="text" name="lastName" id="lastName" placeholder="Enter Last name here">
+        <label for="email"></label>
+        <input type="text" name="email" id="email" placeholder="Email here">
+        <label for="confirmEmail"></label>
+        <input type="text" name="confirmEmail" id="confirmEmail" placeholder="confirm email here">
+        <input type="submit" value="Submit">
+    </form>
+    
+    <script>
+    // Get form elements
+    const email = document.getElementById('email');
+    const confirmEmail = document.getElementById('confirmEmail');
+    
+    // Add event listener to email fields
+    email.addEventListener('input', validateEmail);
+    confirmEmail.addEventListener('input', validateEmail);
+    
+    // Function to validate email fields
+    function validateEmail() {
+        if (email.value !== confirmEmail.value) {
+            confirmEmail.setCustomValidity('Email addresses do not match');
+        } else {
+            confirmEmail.setCustomValidity('');
+        }
+    }
+    </script>
+    </div>
 </body>
 </html>
